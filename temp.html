@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sections with Divider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 297mm; /* Height of an A4 page */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10mm 0;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            padding: 10mm;
+        }
+
+        section {
+            padding: 10mm;
+            border: 0.5mm solid #ccc;
+            box-shadow: 0 0 2mm rgba(0, 0, 0, 0.1);
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        #section1 {
+            flex: 0 0 30%;
+            margin-right: 0;
+            border-right: 1mm solid #333;
+        }
+
+        #section2 {
+            flex: 0 0 70%;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is the content of section 1.</p>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is the content of section 2.</p>
+        </section>
+    </main>
+</body>
+</html>
