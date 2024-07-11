@@ -1,0 +1,48 @@
+ body {
+     background-color: rgb(17, 77, 65);
+     position: sticky;
+     padding: 10mm;
+     color: rgb(17, 77, 65);
+     font-family: "Kanit", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .container1 {
+     position: relative;
+     background-color: aliceblue;
+     width: 148mm;
+     margin: 0mm;
+     padding: 3mm 8mm 0mm;
+     font-size: 9mm;
+ }
+
+ .id1 {
+     margin: 0mm;
+     font-size: 5mm;
+ }
+
+ .container2 {
+     position: absolute;
+     display: flex;
+     width: 150mm;
+     background-color: aliceblue;
+     padding: 7mm;
+ }
+
+ section {
+     padding: 6mm;
+     height: 95%;
+     box-sizing: border-box;
+ }
+
+ #section1 {
+     flex: 0 0 75%;
+     margin: -7mm;
+     border-right: 0.7mm solid rgb(17, 77, 65);
+ }
+
+ #section2 {
+     flex: 0 0 25%;
+     margin: -7mm 0mm 0mm 7mm
+ }
